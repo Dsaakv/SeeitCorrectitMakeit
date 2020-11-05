@@ -52,8 +52,8 @@ nav {
     text-decoration: none;
 }
 .menu-area a:hover {
-    background: deeppink;
-    color: #fff;
+    background: white;
+    color: black;
 }
 nav:before {
     position: absolute;
