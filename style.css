@@ -22,8 +22,11 @@ nav {
     margin: 0 auto;
     background: #000000;
     z-index: 1;
-    text-align: right;
-    padding-right: 2%;
+    text-align: center;
+    padding-right: 290px;
+}
+nav li{
+    padding-top50px;
 }
 .logo {
     width: 25%;
