@@ -54,6 +54,7 @@ nav {
 .menu-area a:hover {
     background: white;
     color: black;
+
 }
 nav:before {
     position: absolute;
