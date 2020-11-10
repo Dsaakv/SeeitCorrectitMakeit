@@ -126,11 +126,7 @@ nav:after {
 .dropdown:hover .dropbtn{
     background-color: #3e8e41;
 }
-.degreestitle{
-    position:relative;
-    left:650px;
-    font-size: 2em;
-}
+
 
 .flip-box{
     background-color: transparent;
@@ -431,6 +427,11 @@ nav:after {
 }
 .changingTodayTitle{
     position:relative;
-    left:650px;
+    left:400px;
+    font-size: 2em;
+}
+.degreestitle{
+    position:relative;
+    left:400px;
     font-size: 2em;
 }
