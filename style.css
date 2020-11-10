@@ -429,3 +429,8 @@ nav:after {
     text-decoration:none;
     color:darkred;
 }
+.changingTodayTitle{
+    position:relative;
+    left:650px;
+    font-size: 2em;
+}
