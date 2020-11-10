@@ -82,6 +82,13 @@ nav:after {
 .mainImage{
     padding-left:250px;
 }
+.mainImage h1{
+    position:relative;
+    bottom:470px;
+    left:340px;
+    color:white;
+    font-size:6.5em;
+}
 
 .dropbtn{
     background-color:#068e4e;
@@ -96,7 +103,7 @@ nav:after {
 .dropdown{
     position:relative;
     left:160px;
-    bottom:317px;
+    bottom:400px;
     display:inline-block;
 }
 
