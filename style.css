@@ -441,12 +441,17 @@ nav:after {
 }
 .changingTodayTitle{
     position:relative;
-    left:400px;
+    left:15%;
     font-size: 2em;
 }
+#contentBilder{
+    position: relative;
+
+}
+
 .degreestitle{
     position:relative;
-    left:400px;
+    left:20%;
     font-size: 2em;
 }
 /* Place the navbar at the bottom of the page, and make it stick */
