@@ -141,6 +141,39 @@ nav:after {
     background-color: #3e8e41;
 }
 
+.announcements{
+    position:relative;
+    bottom:80px;
+    background-color: lightgray;
+    width:500px;
+    height:180px;
+    padding-left:10px;
+    padding-top:10px;
+}
+
+.announcements a{
+    text-decoration: none;
+    color:black;
+    font-size:1.3em;
+}
+
+.News{
+    position: relative;
+    left:700px;
+    bottom:260px;
+    background-color: lightgray;
+    width:500px;
+    height:180px;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.News a{
+    text-decoration: none;
+    color:black;
+    font-size:1.3em;
+}
+
 
 .flip-box{
     background-color: transparent;
