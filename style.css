@@ -29,7 +29,7 @@ nav {
     background: #000000;
     z-index: 1;
     text-align: right;
-    
+
 }
 nav li{
     padding-top:50px;
@@ -86,7 +86,7 @@ nav:after {
     right: 0;
 }
 .mainImage{
-   position:relative;
+    position:relative;
     right:110px;
 }
 .mainImage h1{
@@ -145,7 +145,7 @@ nav:after {
 .flip-box{
     background-color: transparent;
     width:400px;
-    height:250px;
+    height:270px;
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
@@ -193,16 +193,20 @@ nav:after {
     color:darkred;
 }
 
+.flip-box-back h1{
+    color:black;
+}
+
 
 .flip-box2{
     background-color: transparent;
     width:400px;
-    height:250px;
+    height:270px;
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
     left:390px;
-    top:-200px;
+    top:-220px;
 }
 
 .flip-box-inner2{
@@ -243,15 +247,20 @@ nav:after {
     text-decoration:none;
     color:darkred;
 }
+
+.flip-box-back2 h1{
+    color:black;
+}
+
 .flip-box3{
     background-color: transparent;
     width:400px;
-    height:250px;
+    height:270px;
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
     left:930px;
-    top:-450px;
+    top:-490px;
 }
 
 .flip-box-inner3{
@@ -292,10 +301,15 @@ nav:after {
     text-decoration:none;
     color:darkred;
 }
+
+.flip-box-back3 h1{
+    color:black;
+}
+
 .flip-box4{
     background-color: transparent;
     width:400px;
-    height:250px;
+    height:270px;
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
@@ -341,15 +355,20 @@ nav:after {
     text-decoration:none;
     color:darkred;
 }
+
+.flip-box-back4 h1{
+    color:black;
+}
+
 .flip-box5{
     background-color: transparent;
     width:400px;
-    height:250px;
+    height:270px;
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
     left:390px;
-    top:-600px;
+    top:-620px;
 }
 
 .flip-box-inner5{
@@ -390,15 +409,20 @@ nav:after {
     text-decoration:none;
     color:darkred;
 }
+
+.flip-box-back5 h1{
+    color:black;
+}
+
 .flip-box6{
     background-color: transparent;
     width:400px;
-    height:250px;
+    height:270px;
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
     left:930px;
-    top:-850px;
+    top:-890px;
 }
 
 .flip-box-inner6{
@@ -439,19 +463,27 @@ nav:after {
     text-decoration:none;
     color:darkred;
 }
+
+.flip-box-back6 h1{
+    color:black;
+}
+
 .changingTodayTitle{
     position:relative;
-    left:15%;
+    left:20%;
+    bottom:700px;
     font-size: 2em;
 }
 #contentBilder{
     position: relative;
+    bottom:650px;
+    right:50px;
 
 }
 
 .degreestitle{
     position:relative;
-    left:20%;
+    left:30%;
     font-size: 2em;
 }
 /* Place the navbar at the bottom of the page, and make it stick */
@@ -542,5 +574,5 @@ nav:after {
 .fa-reddit{
     background:black;
     color: white;
-    
+
 }
