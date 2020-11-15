@@ -136,6 +136,7 @@ nav:after {
 
 .mainImage{
     position:relative;
+    left:40px;
 }
 .mainImage h1{
     position:relative;
@@ -191,6 +192,7 @@ nav:after {
 
 .announcements{
     position:relative;
+    left:40px;
     bottom:80px;
     background-color: lightgray;
     width:500px;
@@ -207,7 +209,7 @@ nav:after {
 
 .News{
     position: relative;
-    left:600px;
+    left:640px;
     bottom:260px;
     background-color: lightgray;
     width:500px;
@@ -230,8 +232,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:80px;
-    top:50px;
+    left:100px;
+    bottom:100px;
 }
 
 .flip-box-inner{
@@ -286,8 +288,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:550px;
-    top:-220px;
+    left:650px;
+    top:-370px;
 }
 
 .flip-box-inner2{
@@ -340,8 +342,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:550px;
-    top:130px;
+    left:650px;
+    top:80px;
 }
 
 .flip-box-inner3{
@@ -394,8 +396,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:80px;
-    top:-450px;
+    left:100px;
+    top:-550px;
 }
 
 .flip-box-inner4{
@@ -448,8 +450,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:550px;
-    top:-720px;
+    left:650px;
+    top:-820px;
 }
 
 .flip-box-inner5{
@@ -502,8 +504,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:80px;
-    top:-680px;
+    left:100px;
+    top:-730px;
 }
 
 .flip-box-inner6{
@@ -551,19 +553,21 @@ nav:after {
 
 .changingTodayTitle{
     position:relative;
-    left:10%;
-    bottom:500px;
+    left:15%;
+    bottom:600px;
     font-size: 2em;
 }
 #contentBilder{
     position: relative;
-    bottom:490px;
+    bottom:590px;
+    left:40px;
 
 }
 
 .degreestitle{
     position:relative;
-    left:25%;
+    left:30%;
+    bottom:170px;
     font-size: 2em;
 }
 /* Place the navbar at the bottom of the page, and make it stick */
