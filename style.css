@@ -86,16 +86,64 @@ nav:after {
     top: 100%;
     right: 0;
 }
+
+.Menu:hover .dropdown-content2{
+    display:block;
+}
+.Menu:hover .dropbtn2{
+    background-color: white;
+    color:black
+}
+.dropbtn2{
+    background-color:black;
+    color:white;
+    padding:16px;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border:none;
+    cursor:pointer;
+}
+
+.Menu{
+    position:relative;
+    right:390px;
+    bottom:57px;
+    display:inline-block;
+}
+
+.dropdown-content2{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width:480px;
+    max-height:450px;
+    overflow:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropdown-content2 a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+.dropdown-content2 a:hover {background-color: #f1f1f1}
+
+
 .mainImage{
     position:relative;
-    right:110px;
+    left:40px;
 }
 .mainImage h1{
     position:relative;
-    bottom:470px;
-    left:340px;
+    bottom:375px;
+    left:255px;
     color:white;
-    font-size:6.5em;
+    font-size:6em;
 }
 
 .dropbtn{
@@ -111,7 +159,7 @@ nav:after {
 .dropdown{
     position:relative;
     left:160px;
-    bottom:400px;
+    bottom:370px;
     display:inline-block;
 }
 
@@ -144,6 +192,7 @@ nav:after {
 
 .announcements{
     position:relative;
+    left:40px;
     bottom:80px;
     background-color: lightgray;
     width:500px;
@@ -160,7 +209,7 @@ nav:after {
 
 .News{
     position: relative;
-    left:700px;
+    left:640px;
     bottom:260px;
     background-color: lightgray;
     width:500px;
@@ -183,8 +232,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:-110px;
-    top:50px;
+    left:100px;
+    bottom:100px;
 }
 
 .flip-box-inner{
@@ -239,8 +288,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:390px;
-    top:-220px;
+    left:650px;
+    top:-370px;
 }
 
 .flip-box-inner2{
@@ -293,8 +342,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:930px;
-    top:-490px;
+    left:650px;
+    top:80px;
 }
 
 .flip-box-inner3{
@@ -347,8 +396,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:-110px;
-    top:-350px;
+    left:100px;
+    top:-550px;
 }
 
 .flip-box-inner4{
@@ -401,8 +450,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:390px;
-    top:-620px;
+    left:650px;
+    top:-820px;
 }
 
 .flip-box-inner5{
@@ -455,8 +504,8 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:930px;
-    top:-890px;
+    left:100px;
+    top:-730px;
 }
 
 .flip-box-inner6{
@@ -504,20 +553,21 @@ nav:after {
 
 .changingTodayTitle{
     position:relative;
-    left:20%;
-    bottom:700px;
+    left:15%;
+    bottom:600px;
     font-size: 2em;
 }
 #contentBilder{
     position: relative;
-    bottom:650px;
-    right:50px;
+    bottom:590px;
+    left:40px;
 
 }
 
 .degreestitle{
     position:relative;
     left:30%;
+    bottom:170px;
     font-size: 2em;
 }
 /* Place the navbar at the bottom of the page, and make it stick */
