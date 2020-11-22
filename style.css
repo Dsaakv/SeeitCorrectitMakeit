@@ -137,7 +137,8 @@ nav:after {
 
 .mainImage{
     position:relative;
-    left:40px;
+    right:60px;
+    top:20px;
 }
 .mainImage h1{
     position:relative;
@@ -193,7 +194,7 @@ nav:after {
 
 .announcements{
     position:relative;
-    left:40px;
+    right:60px;
     bottom:80px;
     background-color: lightgray;
     width:500px;
@@ -210,7 +211,7 @@ nav:after {
 
 .News{
     position: relative;
-    left:640px;
+    left:545px;
     bottom:260px;
     background-color: lightgray;
     width:500px;
@@ -233,7 +234,7 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:100px;
+    left:10px;
     bottom:100px;
 }
 
@@ -289,7 +290,7 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:650px;
+    left:545px;
     top:-370px;
 }
 
@@ -343,7 +344,7 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:650px;
+    left:545px;
     top:80px;
 }
 
@@ -397,7 +398,7 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:100px;
+    left:10px;
     top:-550px;
 }
 
@@ -451,7 +452,7 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:650px;
+    left:545px;
     top:-820px;
 }
 
@@ -505,7 +506,7 @@ nav:after {
     border:1px solid #f1f1f1;
     perspective: 1000px;
     position:relative;
-    left:100px;
+    left:10px;
     top:-730px;
 }
 
@@ -554,14 +555,14 @@ nav:after {
 
 .changingTodayTitle{
     position:relative;
-    left:15%;
+    left:10%;
     bottom:600px;
     font-size: 2em;
 }
 #contentBilder{
     position: relative;
     bottom:590px;
-    left:40px;
+    right:60px;
 
 }
 
