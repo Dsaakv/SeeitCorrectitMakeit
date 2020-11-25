@@ -1,7 +1,4 @@
-
-
-
-
+/* Nav */
 nav {
   display: flex;
   justify-content: space-between;
@@ -40,6 +37,7 @@ nav a {
   transition: all 0.3s ease-out;
 }
 
+/* HeroDisplay bilde pluss news */
 .hero-display-container {
   display: flex;
   margin: 0 auto;
@@ -63,6 +61,8 @@ nav a {
   background-color: lightgray;
   padding: 1%;
 }
+
+/* Cards */
 .cards-main-container {
 
   display: flex;
@@ -100,16 +100,8 @@ nav a {
   max-width: 20%;
   height: auto;
 }
-.bottom-picture {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 5%;
-}
-.bottom-picture img{
-  max-width: 100%;
-  height: auto;
-}
+
+/* Heading over bildet i bunnen */
 .bottom-heading {
   display: flex;
   flex-direction: column;
@@ -120,8 +112,21 @@ nav a {
   margin: 5%;
 }
 
+/* Bildet i bunnen */
+.bottom-picture {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.bottom-picture img{
+  max-width: 100%;
+  height: auto;
+}
 
-@media only screen and (max-width: 800px) {
+/* Justerer innhold under 750 px */
+
+@media only screen and (max-width: 750px) {
   .card-row {
     flex-direction: column;
   }
