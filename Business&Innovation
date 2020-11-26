@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Kort.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Business&Innovation</title>
+</head>
+<body>
+
+<nav>
+    <div class="nav-logo">
+        <a href="index.html"></a><img src="../Images/uat-logo.png" alt="Logo"/></a>
+    </div>
+    <div class="nav-menu">
+        <a href="menu.html">Menu</a>
+        <a href="ApplyToUAT.html">Apply to UAT</a>
+        <a href="contact.html">Contact</a>
+        <a href="info.html">Info</a>
+    </div>
+</nav>
+
+<ul content="Business&Innovation">
+    <h1>BUSINESS & INNOVATION</h1>
+    <li>
+        <p1>Business Technology</p1>
+        <br>
+        <p1>Technology Innovation (MS)</p1>
+        <br>
+        <p1>Technology Leadership (MS)</p1>
+        <br>
+        <p1>Technology Studies</p1>
+        <br>
+    </li>
+
+</ul>
+
+</body>
+</html>
