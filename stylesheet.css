@@ -110,6 +110,7 @@ nav a {
   width: 100%;
   margin: 0 auto;
   margin: 5%;
+  text-align: center;
 }
 
 /* Bildet i bunnen */
@@ -118,6 +119,7 @@ nav a {
   width: 80%;
   margin: 0 auto;
   margin-top: 5%;
+  text-align: center;
 }
 .bottom-picture img{
   max-width: 100%;
