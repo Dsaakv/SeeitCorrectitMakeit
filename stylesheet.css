@@ -85,7 +85,7 @@ nav a {
   justify-content: space-between;
   margin-top: 5%;
 }
-
+/* Kan pusle med (stil)*/
 .card-container {
   display: flex;
   flex-direction: column;
