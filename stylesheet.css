@@ -31,7 +31,7 @@ nav a {
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  font-size: 2.5vh;
+  font-size: 2vh;
   color: #FFFEFB;
   padding: 2px;
   transition: all 0.3s ease-out;
@@ -96,6 +96,12 @@ nav a {
   padding-bottom: 8%;
   padding-top: 4%;
 }
+
+.card-container a{
+    text-decoration: none;
+    color:black;
+}
+
 .card-container img {
   max-width: 20%;
   height: auto;
@@ -144,16 +150,7 @@ nav a {
     width: 100%;
 
   }
-  nav a {
-        display: flex;
-        text-decoration: none;
-        justify-content: center;
-        align-items: center;
-        font-size: 2.5vh;
-        color: #FFFEFB;
-        padding: 2px;
-        transition: all 0.3s ease-out;
-    }
+  
   .card-row {
     flex-direction: column;
   }
