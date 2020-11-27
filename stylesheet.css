@@ -96,6 +96,12 @@ nav a {
   padding-bottom: 8%;
   padding-top: 4%;
 }
+
+.card-container a{
+    text-decoration: none;
+    color:black;
+}
+
 .card-container img {
   max-width: 20%;
   height: auto;
