@@ -36,3 +36,15 @@ nav a {
     padding: 2px;
     transition: all 0.3s ease-out;
 }
+@media only screen and (max-width: 750px) {
+    nav {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+}

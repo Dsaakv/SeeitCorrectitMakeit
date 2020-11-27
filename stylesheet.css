@@ -135,10 +135,12 @@ nav a {
   nav {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    align-items: center;
     justify-content: space-between;
     background-color: black;
-    height: 220px;
-    align-items: center;
+    height: 100%;
+
     width: 100%;
 
   }
