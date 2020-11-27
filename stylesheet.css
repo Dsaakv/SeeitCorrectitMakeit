@@ -152,6 +152,13 @@ nav a {
     margin: 0 auto;
     margin-top: 5%;
   }
+  .fa {
+    padding: 7px;
+    font-size: 7px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
 
 }
 .navbar2 {
