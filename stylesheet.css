@@ -138,7 +138,8 @@ nav a {
     background-color: black;
     height: 220px;
     align-items: center;
-    width: 100%;
+    width: 80%;
+
   }
   .card-row {
     flex-direction: column;
